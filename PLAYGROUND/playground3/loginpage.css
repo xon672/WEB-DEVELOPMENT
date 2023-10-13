@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px ;
+}
+body{
+    background:whitesmoke ;
+    font-size: 1.5rem;
+    text-align: center;
+}
+label{
+    display: block;
+    margin-top: 40px;
+}
+#button{
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+}
+fieldset{
+    border:none;
+    margin-top: 80px;
+}
+span{
+    display: block;
+    margin-bottom: 30px;
+}
+.both{
+    margin-right:30px ;
+}
+#button:hover{
+    background-color: whitesmoke;
+    border:1px solid blue;
+    transition: 0.5s linear;
+    color: blue;
+    width: 130px;
+    height: 40px;
+    font-size: 1rem;
+}

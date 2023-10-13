@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+#parent{
+    background-color: green;
+    width: 900px;
+    height: 350px;
+    margin: 100px auto;
+    padding: 90px 20px 0 20px;
+}
+.piano{
+    background-color: black;
+    height: 250px;
+}
+.keys{
+    background-color: white;
+    width:40px;
+    height: 235px;
+    position: relative;
+    float: left;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.black--key::after{
+    background-color: black;
+    content: "";
+    width:30px;
+    height: 110px;
+    position: absolute;
+    left: -15px;
+}
+.logo{
+    width: 100px;
+    position: absolute;
+    top: 65px;
+}
+.image-text{
+    position: absolute;
+    z-index: 44;
+    font-size: larger;
+    color:greenyellow;
+    box-shadow: 3px 2px 4px;
+    top: 110px;
+    margin-left: 110px;
+}
+.keys:hover{
+    background-color: #f0fff0;
+}

@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(/images/cool.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin: 40px;
+    text-decoration: underline;
+    margin-bottom: 0;
+    color: brown;
+}
+ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.note{
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    font-style: italic;
+    color: red;
+}
+details{
+    color: greenyellow;
+    width: 200px;
+    margin: 0 auto ;
+    text-align: center;
+}
+.time{
+    text-align: center;
+    color: red;
+}
+table{
+    margin: 35px auto;
+    width: 600px;
+    border: 3px solid green;
+    padding: 20px;
+}
+caption{
+    color: brown;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+td{
+    width: 85%;
+    color: greenyellow;
+}
+th{
+    text-align: left;
+    color: red;
+    font-size: 1.5rem;
+}
+.big-text {
+    font-size: 5.5rem;
+    text-shadow: 4px 4px 4px royalblue;
+    letter-spacing: 0.5rem;
+    top: 4em;
+    width: 400px;
+}
+@keyframes details{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+summary:hover{
+    animation-name: details;
+    animation-duration: 3s;
+    background: brown;
+    border-radius: 10px;
+}

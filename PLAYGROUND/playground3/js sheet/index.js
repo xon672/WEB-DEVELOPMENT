@@ -1,0 +1,1 @@
+prompt("whats you name ")

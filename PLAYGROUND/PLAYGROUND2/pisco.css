@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+#layer{
+    background-color: brown;
+    width: 100vw;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.overlay{
+    background-color: ghostwhite;
+    width: 300px;
+    height: 650px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.overlay-triangle{
+    width: 0;
+    position: absolute;
+    height: 0;
+    border-style: solid;
+    border-width: 0 120px 140px 180px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color:transparent ;
+    border-bottom-color: ghostwhite;
+    top: -140px;
+}
+#overlay{
+    background-color: ghostwhite;
+    width: 30%;
+    position: absolute;
+    height: 400px;
+    left: 67%;
+    top: 158px;
+}
+#overlay-triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 120px 91px;
+    border-bottom-color: ghostwhite;
+    position: absolute;
+    top: -120px;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    z-index: 1;
+}
+.rectangle{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top:0;
+    z-index: 1;
+}
+.streight{
+    width: 50px;
+    height: 300px;
+    background-color: brown;
+    position: absolute;
+    top: 49px;
+    left: 40%;
+    z-index: 1;
+
+}
+.dots{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+.long{
+    width: 500px ;
+    height: 170px;
+    background-color: gold;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    z-index: 1;
+}
+.second-overlay{
+    width: 37%;
+    height: 650px;
+    background-color: red;
+    position: absolute;
+    left: 58%;
+    top: 20%;
+}
+.shead{
+    width:0;
+    height: 0;
+    border-style: solid;
+    border-width: 110px 0 0 235px;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-top-color:transparent;
+    border-left-color: red;
+    position: absolute;
+    top: -110px;
+}
+.icon-holder{
+    width: 450px;
+    height: 100px;
+    background-color: ghostwhite;
+    position: absolute;
+    top: 400px;
+    z-index: 1;
+    right: -35px;
+}
+.fa-music{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.blue-box{
+    height: 400px;
+    width: 550px;
+    background-color: blue;
+    position: absolute;
+    top: 20.2%;
+    left: 17%;
+}
+.second-blue{
+    height: 175px;
+    width: 400px;
+    background-color: blue;
+    position: absolute;
+    top: 75%;
+    left:40%;
+}
+.long-box{
+    height: 85%;
+    width: 300px;
+    background-color: burlywood;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+#triangles{
+    height: 100%;
+    width:100%;
+    background-color: gold;
+}
+.triangles{
+    margin-top: 20px ;
+    border-style: solid;
+    border-width: 42px 45px 45px 0;
+    border-top-color: transparent ;
+    border-right-color: green ;
+    border-left-color: transparent ;
+    border-bottom-color: transparent;
+    display: inline-block;
+}
+#guitar{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+.guitar-left{
+    width: 150px;
+    height: 100px;
+    background-color: purple;
+    position: absolute;
+    z-index: 6;
+    top: 180px;
+    border-radius: 50%;
+}
+.guitar-right{
+    width: 150px;
+    height: 100px;
+    background-color: purple;
+    position: absolute;
+    z-index: 6;
+    top: 180px;
+    left: 45%;
+    border-radius: 50%;
+}
+.guitar-neck{
+    height: 20px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    top: 221px;
+    left: 70%;
+    z-index: 10;
+}
+.eye-right{
+    width: 50px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    margin-top: 10px;
+}
+.fa-bars

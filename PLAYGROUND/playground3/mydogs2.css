@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(yellow, blue);
+}
+.center{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    /*border: solid;*/
+}
+.center2{
+    text-align: center;
+    /*border: solid;*/
+}
+.center3{
+    transform: rotate(-10deg);
+    /*border: solid;*/
+}
+#lg{
+    background: linear-gradient(white, brown);
+    font-weight: bolder;
+    color: white;
+    width: 300px;
+    height: 100px;
+    /*border: solid;*/
+}
+#lg2{
+    background: linear-gradient(orange, yellow);
+    font-weight: bolder;
+    width: 300px;
+    height: 100px;
+    border: solid;
+}
+/*#lg3{
+    font-weight: bolder;
+}*/

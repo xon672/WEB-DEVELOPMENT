@@ -1,0 +1,36 @@
+var text = [
+    `Lorem ipsfjjfum dolor sit amet consectetur, adipisicing elit. Veniam quo corrupti maiores, praesentium quaerat neque iure deleniti repellat modi dolor aspernatur a animi in qui soluta magnam sapiente quis tempore sint maxime id doloremque eveniet officia laboriosam! Animi odio tempora officia aliquam porro illo tenetur eius expedita voluptatem cum pariatur earum optio exercitationem vel nulla sunt repudiandae atque, quae fugit!`,
+    `Lorem ipsfbajum dolor sit amet consectetur, adipisicing elit. Veniam quo corrupti maiores, praesentium quaerat neque iure deleniti repellat modi dolor aspernatur a animi in qui soluta magnam sapiente quis tempore sint maxime id doloremque eveniet officia laboriosam! Animi odio tempora officia aliquam porro illo tenetur eius expedita voluptatem cum pariatur earum optio exercitationem vel nulla sunt repudiandae atque, quae fugit!`,
+    `Lorem ipsfbajum dolor sit amet consectetur, adipisicing elit. Veniam quo corrupti maiores, praesentium quaerat neque iure deleniti repellat modi dolor aspernatur a animi in qui soluta magnam sapiente quis tempore sint maxime id doloremque eveniet officia laboriosam! Animi odio tempora officia aliquam porro illo tenetur eius expedita voluptatem cum pariatur earum optio exercitationem vel nulla sunt repudiandae atque, quae fugit!`,
+    `Lorem ipsfbajum dw;jeolor sit amet consectetur, adipisicing elit. Veniam quo corrupti maiores, praesentium quaerat neque iure deleniti repellat modi dolor aspernatur a animi in qui soluta magnam sapiente quis tempore sint maxime id doloremque eveniet officia laboriosam! Animi odio tempora officia aliquam porro illo tenetur eius expedita voluptatem cum pariatur earum optio exercitationem vel nulla sunt repudiandae atque, quae fugit!`,
+    `Lorem ipsfbajum dolor sit amet consectetur, adipisicing elit. Veniam quo corrupti maiores, praesentium quaerat neque iure deleniti repellat modi dolor aspernatur a animi in qui soluta magnam sapiente quis tempore sint maxime id doloremque eveniet officia laboriosam! Animi odio tempora officia aliquam porro illo tenetur eius expedita voluptatem cum pariatur earum optio exercitationem vel nulla sunt repudiandae atque, quae fugit!`,
+    `Lo2egdedbjbjrem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quo corrupti maiores, praesentium quaerat neque iure deleniti repellat modi dolor aspernatur a animi in qui soluta magnam sapiente quis tempore sint maxime id doloremque eveniet officia laboriosam! Animi odio tempora officia aliquam porro illo tenetur eius expedita voluptatem cum pariatur earum optio exercitationem vel nulla sunt repudiandae atque, quae fugit!`,
+    `Lo2egdedbjbjrem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quo corrupti maiores, praesentium quaerat neque iure deleniti repellat modi dolor aspernatur a animi in qui soluta magnam sapiente quis tempore sint maxime id doloremque eveniet officia laboriosam! Animi odio tempora officia aliquam porro illo tenetur eius expedita voluptatem cum pariatur earum optio exercitationem vel nulla sunt repudiandae atque, quae fugit!`,
+    `Lo2egdedbjbjrem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quo corrupti maiores, praesentium quaerat neque iure deleniti repellat modi dolor aspernatur a animi in qui soluta magnam sapiente quis tempore sint maxime id doloremque eveniet officia laboriosam! Animi odio tempora officia aliquam porro illo tenetur eius expedita voluptatem cum pariatur earum optio exercitationem vel nulla sunt repudiandae atque, quae fugit!`,
+    `Lo2egdedbjbjrem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quo corrupti maiores, praesentium quaerat neque iure deleniti repellat modi dolor aspernatur a animi in qui soluta magnam sapiente quis tempore sint maxime id doloremque eveniet officia laboriosam! Animi odio tempora officia aliquam porro illo tenetur eius expedita voluptatem cum pariatur earum optio exercitationem vel nulla sunt repudiandae atque, quae fugit!`,
+    `Lo2egdedbjbjrem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quo corrupti maiores, praesentium quaerat neque iure deleniti repellat modi dolor aspernatur a animi in qui soluta magnam sapiente quis tempore sint maxime id doloremque eveniet officia laboriosam! Animi odio tempora officia aliquam porro illo tenetur eius expedita voluptatem cum pariatur earum optio exercitationem vel nulla sunt repudiandae atque, quae fugit!`,
+    `Lorem ipsuqlwejfm dolor sit amet consectetur, adipisicing elit. Veniam quo corrupti maiores, praesentium quaerat neque iure deleniti repellat modi dolor aspernatur a animi in qui soluta magnam sapiente quis tempore sint maxime id doloremque eveniet officia laboriosam! Animi odio tempora officia aliquam porro illo tenetur eius expedita voluptatem cum pariatur earum optio exercitationem vel nulla sunt repudiandae atque, quae fugit!`,
+    `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quo corrupti maiores, praesentium quaerat neque iure deleniti repellat modi dolor aspernatur a animi in qui soluta magnam sapiente quis tempore sint maxime id doloremque eveniet officia laboriosam! Animi odio tempora officia aliquam porro illo tenetur eius expedita voluptatem cum pariatur earum optio exercitationem vel nulla sunt repudiandae atque, quae fugit!`,
+    `Lorem ipsumsebkfsjkb dolor sit amet consectetur, adipisicing elit. Veniam quo corrupti maiores, praesentium quaerat neque iure deleniti repellat modi dolor aspernatur a animi in qui soluta magnam sapiente quis tempore sint maxime id doloremque eveniet officia laboriosam! Animi odio tempora officia aliquam porro illo tenetur eius expedita voluptatem cum pariatur earum optio exercitationem vel nulla sunt repudiandae atque, quae fugit!`,
+    `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quo corrupti maiores, praesentium quaerat neque iure deleniti repellat modi dolor aspernatur a animi in qui soluta magnam sapiente quis tempore sint maxime id doloremque eveniet officia laboriosam! Animi odio tempora officia aliquam porro illo tenetur eius expedita voluptatem cum pariatur earum optio exercitationem vel nulla sunt repudiandae atque, quae fugit!`,
+    `Lorem iwefjiikw;lefpsum dolor sit amet consectetur, adipisicing elit. Veniam quo corrupti maiores, praesentium quaerat neque iure deleniti repellat modi dolor aspernatur a animi in qui soluta magnam sapiente quis tempore sint maxime id doloremque eveniet officia laboriosam! Animi odio tempora officia aliquam porro illo tenetur eius expedita voluptatem cum pariatur earum optio exercitationem vel nulla sunt repudiandae atque, quae fugit!`,
+]
+
+let form = document.querySelector("form");
+let amouth = document.getElementById("amouth");
+let result = document.querySelector(".result");
+form.addEventListener("submit",function(e){
+    e.preventDefault();
+    const value = parseInt(amouth.value);
+    if(isNaN(value) || value <= 0 || value > 15){
+        result.innerHTML = text[Math.floor(Math.random() * text.length)]
+    }else{
+        let pemt = text.slice(0,value)
+        pemt = pemt.map(function(item){
+            return  `<p>${item}</p>`
+        }).join("")
+        //console.log(pemt);
+        return result.innerHTML = pemt
+        c//onsole.log(pemt);
+    }
+})

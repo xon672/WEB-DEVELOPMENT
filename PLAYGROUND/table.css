@@ -1,0 +1,97 @@
+html{
+    box-sizing: border-box;
+}
+#container{
+    border: 1px solid blue;
+    width: 600px;
+    margin: 3rem auto;
+    border-radius: 10px;
+    max-width: 700px;
+    min-width: 100px;
+}
+h1{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+    gap: 0.5rem;
+    margin-left: 1.4rem;
+    color: brown;
+}
+h1 span:first-of-type{
+    font-size: 1rem;
+}
+p{
+    font-size: larger;
+    margin-top: 10px;
+    margin-left: 1.4rem;
+    text-decoration: underline;
+    color: darkorchid;
+}
+#years{
+    display: flex;
+    background-color: blue;
+    color: white;
+    justify-content: flex-end;
+    padding-right: 2.5rem;
+}
+table{
+    width: 100%;
+    height: 19rem;
+    padding-right: 2.5rem;
+}
+tbody th{
+    text-align: left;
+    padding-left:1rem;
+}
+tbody td{
+    text-align: right;
+    width: 4rem;
+}
+table caption{
+    position: absolute;
+    margin-left: 1.4rem;
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 5rem;
+}
+.item{
+    width: 4rem;
+    text-align: right;
+}
+tbody tr th{
+    color: blueviolet;
+}
+tbody tr td{
+    color: hotpink;
+}
+.text{
+    display: block;
+    color: black;
+}
+button{
+    height: 2rem;
+    width: 7rem;
+    margin-bottom:3px;
+    margin-left: 18em;
+    background-color:brown;
+    border-radius: 5px;
+}
+a{
+    color: wheat;
+    text-decoration: none;
+}
+button:hover{
+    box-shadow: 3px 3px 3px brown;
+}
+a:hover{
+    color: gold;
+    text-decoration: underline;
+    animation-name: speed;
+    animation-duration: 2s;
+}
+@keyframes speed{
+    from{opacity: 0;}
+    to{opacity:1;}
+}

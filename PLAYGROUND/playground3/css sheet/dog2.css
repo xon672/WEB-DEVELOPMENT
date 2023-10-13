@@ -1,0 +1,25 @@
+
+body{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(yellow,green);
+}
+.header{
+    font-size:40px;
+    border: solid;
+    border-radius: 10px;
+    background-color: greenyellow;
+
+}
+#text{
+    font-weight: bold;
+}
+.header2{
+    border: solid;
+    background: linear-gradient(greenyellow,green) ;
+    width: 60%;
+    height: 200px;
+}
+input{
+    display: block;
+}
